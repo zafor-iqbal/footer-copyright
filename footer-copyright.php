@@ -1,12 +1,13 @@
 <?php
 /**
- * Plugin Name: Footer Copyright
- * Version: 1.0.0
- * Description: A simple plugin for website footer to display copyright symbol, text, year and company name in different order. Current year gets automatically updated. 
- * Author: Zafor Iqbal
- * Author URI: https://zaforiqbal.com/
- * License: GPLv2 or later
- * License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ * Plugin Name:     Footer Copyright
+ * Plugin URI:      https://github.com/zafor-iqbal/footer-copyright
+ * Description:     A simple plugin for website footer to display copyright symbol, text, year and company name in different order. Current year gets automatically updated. 
+ * Version:         1.0
+ * Author:          Zafor Iqbal
+ * Author URI:      https://zaforiqbal.com/
+ * License:         GPLv2 or later
+ * License URI:     https://www.gnu.org/licenses/gpl-2.0.html
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
