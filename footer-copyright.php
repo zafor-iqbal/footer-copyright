@@ -25,9 +25,10 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 
 function gigatech_copy_date_company_rights( $atts ) {
+    $site_title = get_bloginfo( 'name' );
     // Define default attributes
     $default_atts = array(
-        'company' => 'My Company',
+        'company' => $site_title,
         'start_year' => '' // Start year is empty by default
     );
 
@@ -63,9 +64,10 @@ add_shortcode( 'gigatech_copy_rights', 'gigatech_copy_date_company_rights' );
 
 
 function gigatech_copy_company_date( $atts ) {
+    $site_title = get_bloginfo( 'name' );
     // Define default attributes
     $default_atts = array(
-        'company' => 'My Company' // Default company name
+        'company' => $site_title
     );
 
     // Parse incoming $atts into an array and merge it with $default_atts
@@ -97,9 +99,10 @@ add_shortcode( 'gigatech_copy_company', 'gigatech_copy_company_date' );
 
 
 function gigatech_company_copy_date( $atts ) {
+    $site_title = get_bloginfo( 'name' );
     // Define default attributes
     $default_atts = array(
-        'company' => 'My Company' // Default company name
+        'company' => $site_title,
     );
 
     // Parse incoming $atts into an array and merge it with $default_atts
