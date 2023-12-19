@@ -42,7 +42,7 @@ function gigatech_copy_date_company_rights( $atts ) {
     $date_range = $atts['start_year'] ? esc_html($atts['start_year']) . " – " . $current_year : $current_year;
 
     // Construct the text with the customizable parts
-    $text = "Copyright © " . $date_range . " " . esc_html($atts['company']) . " All rights reserved.";
+    $text = "Copyright © " . $date_range . " " . esc_html($atts['company']) . ". All rights reserved.";
 
     // Return the formatted text
     return $text;
