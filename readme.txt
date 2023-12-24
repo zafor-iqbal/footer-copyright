@@ -15,12 +15,13 @@ This plugin shortcodes displays Company name, copyright text, symbol and update 
 A simple plugin for website footer to display copyright symbol, text, year and company name in different order. Current year gets automatically updated. 
 
 **Example**
+[gigatech_copy_rights] **Copyright © 2023 Site Title. All rights reserved.**
 [gigatech_copy_rights company="Your Company Name." start_year="2010"] **Copyright © 2010–2023 Your Company Name. All rights reserved.**
 [gigatech_copy_rights company="Your Company Name."] **Copyright © 2023 Your Company Name. All rights reserved.**
 [gigatech_copy_company company="Your Company Name"] **© Your Company Name 2023**
-[gigatech_copy_company] **© My Company 2023**
+[gigatech_copy_company] **© Site Title 2023**
 [gigatech_company_year company="Your Company Name"] **Your Company Name © 2023**
-[gigatech_company_year] **My Company © 2023**
+[gigatech_company_year] **Site Title © 2023**
 
 
 == Installation ==
