@@ -16,6 +16,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 
 /**
+ * 
+ * Default: [gigatech_copy_rights]
+ * @return Copyright © 2023 Site Title. All rights reserved.
+ * 
  * With a start year: [gigatech_copy_rights company="Your Company Name." start_year="2010"]
  * @return Copyright © 2010–2023 Your Company Name. All rights reserved.
  * 
@@ -58,7 +62,7 @@ add_shortcode( 'gigatech_copy_rights', 'gigatech_copy_date_company_rights' );
  * @return © Your Company Name 2023
  * 
  * With the default company name: [gigatech_copy_company]
- * @return © My Company 2023
+ * @return © Site Title 2023
  * 
  */
 
@@ -93,7 +97,7 @@ add_shortcode( 'gigatech_copy_company', 'gigatech_copy_company_date' );
  * @return Your Company Name © 2023
  * 
  * With the default company name: [gigatech_company_year]
- * @return My Company © 2023
+ * @return Site Title © 2023
  * 
  */
 
