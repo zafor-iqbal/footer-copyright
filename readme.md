@@ -1,7 +1,7 @@
 === Footer Copyright ===
 Contributors: zaforiqbal
-Donate link: https://zaforiqbal.com
-Tags: copyright, widget , shortcode
+Donate link: https://zaforiqbal.com 
+Tags: copyright, shortcode
 Requires at least: 4.6
 Tested up to: 6.4.2
 Stable tag: 1.0
@@ -9,10 +9,12 @@ Requires PHP: 5.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin shortcodes displays Company name, copyright text, symbol and update the copyright year automatically every year.
+A simple plugin for website footer to display copyright symbol, text, year and company name in different order. Current year gets automatically updated. 
+
 == Description ==
 
-A simple plugin for website footer to display copyright symbol, text, year and company name in different order. Current year gets automatically updated. 
+This plugin shortcodes displays Company name, copyright text, symbol and update the copyright year automatically every year.
+
 
 **Example**
 [gigatech_copy_rights] **Copyright © 2023 Site Title. All rights reserved.**
@@ -34,6 +36,20 @@ e.g.
 2. Activate the plugin through the 'Plugins' screen in WordPress
 3. Use the shortcodes to display copyright in different formats
 
+
+== Frequently Asked Questions ==
+
+= Who should use Footer Copyright? =
+
+Anyone who has a WordPress website can use Footer Copyright to keep the site always update in terms of Copyright year and text. 
+
+= Do I need to have coding skills to use Footer Copyright? =
+
+Absolutely not. Just place the shortcode in your WordPress website footer widget.
+
+= Will it work in my pages or posts? =
+
+Yes. 
 
 == Changelog ==
 

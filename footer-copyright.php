@@ -1,14 +1,31 @@
 <?php
 /**
- * Plugin Name:     Footer Copyright
- * Plugin URI:      https://gigatechsolution.com/copyright-footer-plugin/
- * Description:     A simple plugin for website footer to display copyright symbol, text, year and company name in different order. Current year gets automatically updated. 
- * Version:         1.0
- * Author:          Zafor Iqbal
- * Author URI:      https://zaforiqbal.com/
- * License:         GPLv2 or later
- * License URI:     https://www.gnu.org/licenses/gpl-2.0.html
- */
+ * Plugin Name:         Footer Copyright
+ * Plugin URI:          https://gigatechsolution.com/copyright-footer-plugin/
+ * Description:         A simple plugin for website footer to display copyright symbol, text, year and company name in different order. Current year gets automatically updated. 
+ * Version:             1.0
+ * Requires at least:   4.6
+ * Requires PHP:        5.6
+ * Author:              Zafor Iqbal
+ * Author URI:          https://zaforiqbal.com/
+ * License:             GPL v2 or later
+ * License URI:         https://www.gnu.org/licenses/gpl-2.0.html
+ *  
+ * Footer Copyright is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * any later version.
+ *
+ * Footer Copyright is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Footer Copyright. If not, see <https://www.gnu.org/licenses/>.
+*/
+
+
 
 if ( ! defined( 'ABSPATH' ) ) {
   exit; // Exit if accessed directly
