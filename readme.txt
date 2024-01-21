@@ -3,16 +3,18 @@ Contributors: zaforiqbal
 Donate link: https://zaforiqbal.com
 Tags: copyright, widget , shortcode
 Requires at least: 4.6
-Tested up to: 6.4.2
+Tested up to: 6.4
 Stable tag: 1.0
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin shortcodes displays Company name, copyright text, symbol and update the copyright year automatically every year.
+A simple plugin for website footer to display copyright symbol, text, year and company name in different order. Current year gets automatically updated. 
+
 == Description ==
 
-A simple plugin for website footer to display copyright symbol, text, year and company name in different order. Current year gets automatically updated. 
+This plugin shortcodes displays Company name, copyright text, symbol and update the copyright year automatically every year.
+
 
 **Example**
 [gigatech_copy_rights] **Copyright © 2023 Site Title. All rights reserved.**
