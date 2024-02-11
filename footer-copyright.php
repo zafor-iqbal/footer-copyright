@@ -57,7 +57,7 @@ function gigatech_copy_date_company_rights( $atts ) {
     $atts = shortcode_atts( $default_atts, $atts );
 
     // Get the current year
-    $current_year = date('Y');
+    $current_year = gmdate('Y');
 
     // Construct the date range
     $date_range = $atts['start_year'] ? esc_html($atts['start_year']) . " – " . $current_year : $current_year;
@@ -95,7 +95,7 @@ function gigatech_copy_company_date( $atts ) {
     $atts = shortcode_atts( $default_atts, $atts );
 
     // Get the current year
-    $current_year = date('Y');
+    $current_year = gmdate('Y');
 
     // Construct the text with the customizable part
     $text = "© " . esc_html($atts['company']) . " " . $current_year;
@@ -130,7 +130,7 @@ function gigatech_company_copy_date( $atts ) {
     $atts = shortcode_atts( $default_atts, $atts );
 
     // Get the current year
-    $current_year = date('Y');
+    $current_year = gmdate('Y');
 
     // Construct the text with the customizable part
     $text = esc_html($atts['company']) . " © " . $current_year;
