@@ -9,7 +9,7 @@ Requires PHP: 5.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-A simple plugin for website footer to display copyright symbol, text, year and company name in different order. Year gets automatically updated. 
+A simple plugin for website footer to display copyright symbol, text, year and company name in different order. Current year gets automatically updated. 
 
 == Description ==
 
