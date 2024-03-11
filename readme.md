@@ -4,12 +4,12 @@ Donate link: https://zaforiqbal.com
 Tags: copyright, shortcode
 Requires at least: 4.6
 Tested up to: 6.4.2
-Stable tag: 1.0
+Stable tag: 1.0.1
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-A simple plugin for website footer to display copyright symbol, text, year and company name in different order. Current year gets automatically updated. 
+A simple plugin for website footer to display copyright symbol, text, year and company name in different order. Year gets automatically updated. 
 
 == Description ==
 

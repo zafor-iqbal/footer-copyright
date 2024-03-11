@@ -3,7 +3,7 @@
  * Plugin Name:         Footer Copyright
  * Plugin URI:          https://gigatechsolution.com/copyright-footer-plugin/
  * Description:         A simple plugin for website footer to display copyright symbol, text, year and company name in different order. Current year gets automatically updated. 
- * Version:             1.0
+ * Version:             1.0.1
  * Requires at least:   4.6
  * Requires PHP:        5.6
  * Author:              Zafor Iqbal
