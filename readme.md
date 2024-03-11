@@ -18,15 +18,15 @@ This plugin shortcodes displays Company name, copyright text, symbol and update 
 
 **Example**
 1. [gigatech_copy_rights] **Copyright © 2023 Site Title. All rights reserved.**
-2.[gigatech_copy_rights company="Your Company Name." start_year="2010"] **Copyright © 2010–2023 Your Company Name. All rights reserved.**
+2. [gigatech_copy_rights company="Your Company Name." start_year="2010"] **Copyright © 2010–2023 Your Company Name. All rights reserved.**
 3. [gigatech_copy_rights company="Your Company Name."] **Copyright © 2023 Your Company Name. All rights reserved.**
 4. [gigatech_copy_company company="Your Company Name"] **© Your Company Name 2023**
 5. [gigatech_copy_company] **© Site Title 2023**
 6. [gigatech_company_year company="Your Company Name"] **Your Company Name © 2023**
 7. [gigatech_company_year] **Site Title © 2023**
 8. [gt_cp_icon] **©**
-8. [gt_year] **20XX**
-8. [gt_site_name] **Site Title**
+9. [gt_year] **20XX**
+10. [gt_site_name] **Site Title**
 
 
 == Installation ==
